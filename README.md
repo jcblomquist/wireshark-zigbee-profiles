@@ -11,7 +11,7 @@ Wireshark profiles (column rules, packet colorization rules, default link key) f
 
 ## How do I add these profiles to Wireshark?
 
-Youtube demo:
+Clone this repo or download the latest release archive over on the right, and then follow the steps in this YouTube video to import them into Wireshark:
 
 [![Add Wireshark Profiles Video Link](https://img.youtube.com/vi/MIKIllyMhKM/0.jpg)](https://www.youtube.com/watch?v=MIKIllyMhKM)
 
