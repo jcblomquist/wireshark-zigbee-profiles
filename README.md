@@ -61,3 +61,5 @@ The default trust-center link key 'ZigBeeAlliance09' (5A:69:67:42:65:65:41:6C:6C
 ### What hardware do I need to sniff Zigbee traffic?
 
 There are lots of different Zigbee dongles that can support this. I have personally tested [TI dongles](https://e2e.ti.com/support/wireless-connectivity/zigbee-thread-group/zigbee-and-thread/f/zigbee-thread-forum/699648/faq-zigbee-packet-sniffing-solutions) and [nRF52 dongles](https://docs.nordicsemi.com/bundle/ug_sniffer_802154/page/UG/sniffer_802154/intro_802154.html)
+
+Here are some additional resources on Zigbee sniffing from [zigbee2mqtt](https://www.zigbee2mqtt.io/advanced/zigbee/04_sniff_zigbee_traffic.html)
