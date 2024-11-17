@@ -1,0 +1,55 @@
+# Configuration file for Wireshark 4.4.1.
+#
+# This file is regenerated each time preferences are saved within
+# Wireshark. Making manual changes should be safe, however.
+# Preferences that have been commented out have not been
+# changed from their default value.
+
+####### User Interface: Columns ########
+
+# Packet list hidden columns
+# List all column indices (1-indexed) to hide in the packet list.
+gui.column.hide: 5,6,7
+
+# Packet list hidden column formats (deprecated)
+# List all column formats to hide in the packet list. Deprecated in favor of the index-based preference.
+gui.column.hidden: %s,%d,%p
+
+# Packet list column format
+# Each pair of strings consists of a column title and its format
+gui.column.format: 
+	"No.", "%m",
+	"Length", "%L",
+	"Time", "%t",
+	"Time Delta", "%Tt",
+	"Source", "%s",
+	"Destination", "%d",
+	"Protocol", "%p",
+	"Info", "%i",
+	"RSSI", "%Cus:wpan.rssi || wpan-tap.rss:0:R",
+	"LQI", "%Cus:wpan-tap.lqi || zep.lqi:0:R",
+	"Channel", "%Cus:wpan-tap.ch_num || zep.channel_id:0:R",
+	"PAN Src", "%Cus:wpan.src_pan:0:R",
+	"PAN Dst", "%Cus:wpan.dst_pan:0:R",
+	"MAC Src", "%Cus:wpan.src16:0:R",
+	"MAC Dst", "%Cus:wpan.dst16:0:R",
+	"MAC Seq", "%Cus:wpan.seq_no:0:R",
+	"NWK Src", "%Cus:zbee_nwk.src:0:R",
+	"NWK Dst", "%Cus:zbee_nwk.dst:0:R",
+	"NWK Seq", "%Cus:zbee_nwk.seqno:0:R",
+	"APS Counter", "%Cus:zbee_aps.counter:0:R",
+	"Sec", "%Cus:zbee_nwk.security or zbee_aps.security:0:R",
+	"Extended Source", "%Cus:wpan.src64:0:R",
+	"UTC Time", "%Yut"
+
+####### User Interface: Font ########
+
+# Font name for packet list, protocol tree, and hex dump panes. (Qt)
+# A string
+gui.qt.font_name: Liberation Mono,11,-1,5,50,0,0,0,0,0
+
+####### User Interface: Layout ########
+
+# Layout type (1-6)
+# A decimal number
+gui.layout_type: 4

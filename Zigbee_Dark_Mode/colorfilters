@@ -1,0 +1,7 @@
+# This file was created by Wireshark. Edit with care.
+@MAC Beacons@wpan.frame_type == 0x0@[11565,11565,11565][38293,38293,38293]
+@MAC Commands@wpan.frame_type == 0x3@[11565,11565,11565][65535,19532,12336]
+@NWK Commands@zbee_nwk.frame_type == 0x01@[11565,11565,11565][22359,38807,65535]
+@APS Commands@zbee_aps.type == 0x01 || zbee_aps.type == 0x02@[11565,11565,11565][47031,21331,58853]
+@ZDP Commands@zbee_aps.dst == 0@[11565,11565,11565][5140,52685,51400]
+@ZCL Commands@zbee_aps.dst != 0@[11565,11565,11565][30326,51914,0]
