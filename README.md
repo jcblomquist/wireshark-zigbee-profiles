@@ -15,7 +15,7 @@ Youtube demo:
 
 [![Add Wireshark Profiles Video Link](https://img.youtube.com/vi/MIKIllyMhKM/0.jpg)](https://www.youtube.com/watch?v=MIKIllyMhKM)
 
-## What Wireshark + OS are supported?
+## What Wireshark version + OS are supported?
 
 I have personally tested Windows and Wireshark 4.4.x, but I would imagine that this works on Windows / Linux / MacOS and on any Wireshark 3.x or 4.x release.
 
